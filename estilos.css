@@ -7,7 +7,7 @@ body {
 .barranav {
     display: flex;
     justify-content: flex-end;
-    width: 100%;
+    width: 90%;
     height: 200px;
     align-items: center;
 }
@@ -20,10 +20,9 @@ body {
 }
 
 .logo {
-    padding-left: 20px;
-    padding-top: 5px;
-    width: 600px;
-    height: 200px;
+    padding: 10px 10px;
+    width: 700px;
+    height: 233px;
 }
 .enlace {
     font-family: serif;
@@ -32,13 +31,14 @@ body {
     color: rgb(218, 22, 22);
     padding: 10px 55px;
     text-decoration: none;
-    margin-right: 10px;
+    margin-right: 15px;
+    border-bottom: inset;
 }
 
 .enlace:hover {
     display: flex;
     align-items: center;
-    background-color: #b7e9b7;
+    background-color: #c9efc9;
     height: 30px;
 }
 .linkscontacto {
@@ -64,8 +64,10 @@ body {
     border-bottom: 50px solid #cee3ff;
     background-color: #cee3ff;
     height: calc(100vh -300px - 300px);
+    margin:10px;
 }
 .contimg {
+    border-style: ridge;
     margin: auto;
     display: block;
     position: absolute;
@@ -92,7 +94,7 @@ body {
     max-width: 500px;
     margin: auto;
     background-color:rgb(227, 232, 124);
-    border: 1px solid #7cb87a;
+    border: 1px double #c8f621;
     padding: 10px;
     text-align: center;
     font-size: 25px;
@@ -100,17 +102,23 @@ body {
 .contenedorseccion {
     display: flex;
     flex-direction: column;
+    padding: 8px;
 }
 .seccion {
     background-color: #E7F1FF;
     margin: 10px;
-    /*font-size: 30px;*/
+    font-size: 20px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     position: relative;
 }
 
 .parrafo {
     font-size: 20px;
+}
+.movh1{
+    padding-left: 25%;
+    border-color: #c9efc9;
+    margin: 5px;
 }
 
 .pie {
