@@ -8,7 +8,7 @@ body {
     display: flex;
     justify-content: flex-end;
     width: 90%;
-    height: 200px;
+    height: 150px;
     align-items: center;
 }
 
@@ -45,10 +45,11 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: calc(100vh - 300px);
+    height: 250px;
     background-color: #79b3ff;
+    margin: 15px;
 }
-.enlacedecontacto {
+/*.enlacedecontacto {
     border-radius: 0;
     margin: 10px;
     background-color: #bcd9ff;
@@ -58,7 +59,7 @@ body {
     padding: 20px;
     text-decoration: none;
     color: rgb(0, 0, 0);
-}
+}*/
 .main {
     width: 73%;
     border-bottom: 50px solid #cee3ff;
